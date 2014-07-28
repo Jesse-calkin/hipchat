@@ -111,4 +111,4 @@ class API:
         self.debug_msg('{}\n{}'.format(r.status_code,r.text))
 
 if __name__ == '__main__':
-    api = API("Your App ID", "Your Service Secret", debug=True)
+    api = API(room="Your room_id", auth_token="Your auth_token", debug=True)
